@@ -8,3 +8,4 @@ A repository containing solutions to problems from [DailyCodingProblem](https://
 4. [Problem #4](dcp_4/)
 5. [Problem #5](dcp_5/)
 6. [Problem #6](dcp_6/)
+6. [Problem #7](dcp_7/)
