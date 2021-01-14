@@ -11,3 +11,4 @@ A repository containing solutions to problems from [DailyCodingProblem](https://
 7. [Problem #7](dcp_7/)
 8. [Problem #8](dcp_8/)
 9. [Problem #9](dcp_9/)
+10. [Problem #10](dcp_10/)
