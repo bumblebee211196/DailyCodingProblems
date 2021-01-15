@@ -19,3 +19,4 @@ A repository containing solutions to problems from [DailyCodingProblem](https://
 15. [Problem #15](dcp_15/)
 16. [Problem #16](dcp_16/)
 17. [Problem #17](dcp_17/)
+18. [Problem #18](dcp_18/)
