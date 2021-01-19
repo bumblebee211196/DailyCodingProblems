@@ -1,20 +1,17 @@
 def solution(s):
     stack = []
-    stack_count = 0
     for char in s:
         if char in ('{', '[', '('):
             stack.append(char)
-            stack_count += 1
         else:
-            if stack_count > 0:
+            if stack:
                 popped = stack.pop()
-                stack_count -= 1
                 if popped == '(' and char == ')' or \
                    popped == '{' and char == '}' or \
                    popped == '[' and char == ']':
                     continue
             return False
-    return stack_count == 0
+    return len(stack) == 0
 
 
 def solution2(s):
