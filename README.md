@@ -28,3 +28,4 @@ A repository containing solutions to problems from [DailyCodingProblem](https://
 24. [Problem #24](dcp_24/)
 25. [Problem #25](dcp_25/)
 26. [Problem #26](dcp_26/)
+27. [Problem #27](dcp_27/)
