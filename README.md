@@ -39,5 +39,7 @@ A repository containing solutions to problems from [DailyCodingProblem](https://
   32. [Problem #32](dcp_32/) **Unsolved**
   33. [Problem #33](dcp_33/)
   34. [Problem #34](dcp_34/)
+  35. [Problem #35](dcp_35/)
+  36. [Problem #36](dcp_36/)
 
 </details>
