@@ -48,5 +48,6 @@ A repository containing solutions to problems from [DailyCodingProblem](https://
   41. [Problem #41](solutions/dcp_41/)
   42. [Problem #42](solutions/dcp_42/)
   43. [Problem #43](solutions/dcp_43/)
+  44. [Problem #44](solutions/dcp_44/)
 
 </details>
