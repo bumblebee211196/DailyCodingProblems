@@ -4,6 +4,7 @@ A repository containing solutions to problems from [DailyCodingProblem](https://
 
 <details>
   <summary>Problems 1 - 50</summary>
+
   1. [Problem #1](solutions/dcp_1/)
   2. [Problem #2](solutions/dcp_2/)
   3. [Problem #3](solutions/dcp_3/)
@@ -54,4 +55,5 @@ A repository containing solutions to problems from [DailyCodingProblem](https://
   48. [Problem #46](solutions/dcp_48/)
   49. [Problem #47](solutions/dcp_49/)
   50. [Problem #47](solutions/dcp_50/)
+  
 </details>
