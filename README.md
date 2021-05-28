@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.com/bumblebee211196/DailyCodingProblems.svg?branch=main)](https://travis-ci.com/bumblebee211196/DailyCodingProblems)
 [![codecov](https://codecov.io/gh/bumblebee211196/DailyCodingProblems/branch/main/graph/badge.svg?token=JBBC2TGE5R)](https://codecov.io/gh/bumblebee211196/DailyCodingProblems)
+[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
 A repository containing solutions to problems from [DailyCodingProblem](https://www.dailycodingproblem.com/).
 
