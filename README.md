@@ -1,6 +1,7 @@
 # DailyCodingProblems
 
 [![Build Status](https://travis-ci.com/bumblebee211196/DailyCodingProblems.svg?branch=main)](https://travis-ci.com/bumblebee211196/DailyCodingProblems)
+[![codecov](https://codecov.io/gh/bumblebee211196/DailyCodingProblems/branch/main/graph/badge.svg?token=JBBC2TGE5R)](https://codecov.io/gh/bumblebee211196/DailyCodingProblems)
 
 A repository containing solutions to problems from [DailyCodingProblem](https://www.dailycodingproblem.com/).
 
