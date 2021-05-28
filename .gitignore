@@ -129,5 +129,7 @@ dmypy.json
 .pyre/
 
 # Local
+test.py
 
-test*.py
+# PyCharm
+.idea/
