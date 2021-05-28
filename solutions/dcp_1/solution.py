@@ -4,6 +4,4 @@ def solution(arr, k):
         if abs(number - k) in hash_map:
             return True
         hash_map[number] = True
-
-
-assert solution([10, 15, 3, 7], 17) == True
+    return False
