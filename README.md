@@ -1,5 +1,7 @@
 # DailyCodingProblems
 
+[![Build Status](https://travis-ci.com/bumblebee211196/DailyCodingProblems.svg?branch=main)](https://travis-ci.com/bumblebee211196/DailyCodingProblems)
+
 A repository containing solutions to problems from [DailyCodingProblem](https://www.dailycodingproblem.com/).
 
 <details>
