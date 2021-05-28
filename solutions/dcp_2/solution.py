@@ -1,4 +1,6 @@
 def solution(arr):
+    if not arr:
+        return []
     n = len(arr)
     prefix_product = [0] * n
     prefix_product[0] = arr[0]
@@ -17,7 +19,3 @@ def solution(arr):
         else:
             result[i] = prefix_product[i-1] * suffix_product[i+1]
     return result
-
-
-assert solution([1, 2, 3, 4, 5]) == [120, 60, 40, 30, 24]
-assert solution([3, 2, 1]) == [2, 3, 6]
