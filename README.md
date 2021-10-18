@@ -72,5 +72,9 @@ A repository containing solutions to problems from [DailyCodingProblem](https://
   55. [Problem #55](solutions/dcp_55/) **Unsolved**
   56. [Problem #56](solutions/dcp_56/) **Unsolved**
   57. [Problem #57](solutions/dcp_57/)
+  58. [Problem #58](solutions/dcp_58/)
+  59. [Problem #59](solutions/dcp_59/) **Unsolved**
+  60. [Problem #60](solutions/dcp_60/)
+  61. [Problem #61](solutions/dcp_61/)
 
 </details>
