@@ -9,7 +9,7 @@ class TestSolution:
         [
             (6, 12, 4),
             (6, 16, 1),
-            (16, 16, 2),
+            (9, 9, 3),
         ],
     )
     def test_solution(self, n, x, output):
