@@ -86,5 +86,6 @@ A repository containing solutions to problems from [DailyCodingProblem](https://
   69. [Problem #69](solutions/dcp_69/)
   70. [Problem #70](solutions/dcp_70/)
   71. [Problem #71](solutions/dcp_71/)
+  72. [Problem #72](solutions/dcp_72/)
 
 </details>
