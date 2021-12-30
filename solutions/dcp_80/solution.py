@@ -1,11 +1,15 @@
+from typing import Optional
+from dataclasses import dataclass
+
+
+@dataclass
 class TreeNode:
-    def __init__(self, val, left=None, right=None):
-        self.val = val
-        self.left = left
-        self.right = right
+    val: str
+    left: Optional['TreeNode'] = None
+    right: Optional['TreeNode'] = None
 
 
-def solution(root):
+def solution(root: TreeNode):
     if not root:
         return None
     stack = [root]
