@@ -92,5 +92,6 @@ A repository containing solutions to problems from [DailyCodingProblem](https://
   75. [Problem #75](solutions/dcp_75/)
   76. [Problem #76](solutions/dcp_76/)
   77. [Problem #77](solutions/dcp_77/)
+  78. [Problem #78](solutions/dcp_78/)
 
 </details>
