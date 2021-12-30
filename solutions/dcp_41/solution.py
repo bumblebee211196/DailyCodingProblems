@@ -22,6 +22,3 @@ def solution(flights, origin):
     res = _solution(len(flights), origin, [origin])
     if res:
         return sorted(res)[0]
-
-
-print(solution([('SFO', 'HKO'), ('YYZ', 'SFO'), ('YUL', 'YYZ'), ('HKO', 'ORD')], 'YUL'))

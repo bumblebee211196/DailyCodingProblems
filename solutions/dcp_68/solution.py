@@ -55,6 +55,3 @@ def solution(m, bishops):
     result = [0]
     search(board, result, bishops[0][0], bishops[0][1])
     return result[0]
-
-
-print(solution(5, [(0, 4), (4, 4), (2, 2), (4, 0)]))

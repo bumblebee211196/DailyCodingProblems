@@ -7,7 +7,3 @@ def solution(nums):
     
     target = sum(nums) // 2
     return helper(0, 0)
-
-
-print(solution([15, 5, 20, 10, 35, 15, 10]))
-print(solution([15, 5, 20, 10, 35]))

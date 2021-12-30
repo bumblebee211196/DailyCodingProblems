@@ -37,6 +37,3 @@ def solution(head):
         new_head = curr
         curr = next_
     return new_head
-
-
-print(solution(list_to_ll([1,2,3,4,5])))
