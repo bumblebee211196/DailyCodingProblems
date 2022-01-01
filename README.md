@@ -106,5 +106,6 @@ A repository containing solutions to problems from [DailyCodingProblem](https://
   89. [Problem #89](solutions/dcp_89/)
   90. [Problem #90](solutions/dcp_90/)
   91. [Problem #91](solutions/dcp_91/)
+  92. [Problem #92](solutions/dcp_92/)
 
 </details>
