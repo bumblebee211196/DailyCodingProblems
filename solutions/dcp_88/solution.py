@@ -3,8 +3,9 @@ def solution(x, y):
         raise ZeroDivisionError
     if y == 1:
         return x
-    q = 0
-    while x >= y:
-        q += 1
-        x -= y
-    return q
+    quotient = temp = 0
+    for i in range(31, -1, -1):
+        if temp + (y << i) <= x:
+            temp += y << i
+            quotient |= 1 << i
+    return quotient
