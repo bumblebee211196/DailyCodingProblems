@@ -114,5 +114,6 @@ A repository containing solutions to problems from [DailyCodingProblem](https://
   97. [Problem #97](solutions/dcp_97/)
   98. [Problem #98](solutions/dcp_98/)
   99. [Problem #99](solutions/dcp_99/)
+  100. [Problem #100](solutions/dcp_100/)
 
 </details>
