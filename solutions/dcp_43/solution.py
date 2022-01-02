@@ -1,5 +1,4 @@
 class Stack:
-
     def __init__(self):
         self._top = -1
         self._stack = []

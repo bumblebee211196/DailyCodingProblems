@@ -14,7 +14,7 @@ def solution(arr):
                 arr[key] = -arr[key]
     for i in range(n):
         if arr[i] > 0:
-            return i+1
+            return i + 1
     return n
 
 

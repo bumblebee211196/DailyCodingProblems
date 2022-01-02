@@ -9,4 +9,3 @@ def solution(x, y):
 
 assert solution(2, 10) == 1024
 assert solution(2, 5) == 32
-    

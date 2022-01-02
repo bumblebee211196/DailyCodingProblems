@@ -1,5 +1,6 @@
 from collections import defaultdict
 
+
 def solution(flights, origin):
     flight_map = defaultdict(list)
     for src, dst in flights:

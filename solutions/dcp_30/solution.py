@@ -4,8 +4,8 @@ def solution(arr):
         return 0
 
     total = 0
-    l_max, r_max = arr[0], arr[n-1]
-    i, j = 1, n-2
+    l_max, r_max = arr[0], arr[n - 1]
+    i, j = 1, n - 2
     while i <= j:
         if l_max < r_max:
             total += l_max - arr[i]

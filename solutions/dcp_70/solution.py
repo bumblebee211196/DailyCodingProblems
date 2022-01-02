@@ -11,6 +11,6 @@ def solution(n):
     curr = 1
     while curr < n:
         num += 9
-        if (sum_digits(num) == 10):
+        if sum_digits(num) == 10:
             curr += 1
     return num

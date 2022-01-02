@@ -6,20 +6,19 @@ class Tree:
 
 
 def solution(root):
-
     def helper(node):
         if not node:
             return
         left = helper(node.left)
         right = helper(node.right)
         if left and right:
-            if node.val == '+':
+            if node.val == "+":
                 return left + right
-            if node.val == '-':
+            if node.val == "-":
                 return left - right
-            if node.val == '*':
+            if node.val == "*":
                 return left * right
-            if node.val == '/':
+            if node.val == "/":
                 return left / right
         return node.val
 

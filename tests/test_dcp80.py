@@ -7,7 +7,7 @@ class TestSolution:
     @pytest.mark.parametrize(
         "root, output",
         [
-            (TreeNode('a', TreeNode('b', TreeNode('d')), TreeNode('c')), 'd'),
+            (TreeNode("a", TreeNode("b", TreeNode("d")), TreeNode("c")), "d"),
         ],
     )
     def test_solution(self, root, output):

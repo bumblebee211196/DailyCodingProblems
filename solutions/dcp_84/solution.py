@@ -5,7 +5,6 @@ WATER = 0
 
 
 def solution(grid: List[List[int]]) -> int:
-    
     def dfs(r, c):
         if 0 <= r < rows and 0 <= c < cols and grid[r][c] == LAND:
             grid[r][c] = WATER
@@ -13,7 +12,7 @@ def solution(grid: List[List[int]]) -> int:
             dfs(r - 1, c)
             dfs(r, c + 1)
             dfs(r, c - 1)
-    
+
     rows, cols = len(grid), len(grid[0])
     islands = 0
     for r in range(rows):

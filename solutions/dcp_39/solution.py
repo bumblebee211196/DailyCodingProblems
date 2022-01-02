@@ -3,7 +3,6 @@ import time
 
 
 class GameOfLife:
-
     def __init__(self, cells, n):
         self.cells = cells
         self.display()
@@ -20,16 +19,18 @@ class GameOfLife:
         return count
 
     def get_neighbours(self, x, y):
-        return set([
-            (x, y + 1),
-            (x, y - 1),
-            (x + 1, y),
-            (x - 1, y),
-            (x + 1, y + 1),
-            (x + 1, y - 1),
-            (x - 1, y + 1),
-            (x - 1, y - 1),
-        ])
+        return set(
+            [
+                (x, y + 1),
+                (x, y - 1),
+                (x + 1, y),
+                (x - 1, y),
+                (x + 1, y + 1),
+                (x + 1, y - 1),
+                (x - 1, y + 1),
+                (x - 1, y - 1),
+            ]
+        )
 
     def next_gen(self):
         new_cells = set()
@@ -52,18 +53,37 @@ class GameOfLife:
         bottom = max(self.cells, key=lambda cells: cells[0])[0]
         left = min(self.cells, key=lambda cells: cells[1])[1]
         right = max(self.cells, key=lambda cells: cells[1])[1]
-        os.system('cls')
-        print('-' * 50)
+        os.system("cls")
+        print("-" * 50)
         for i in range(top, bottom + 1):
             for j in range(left, right + 1):
                 if (i, j) in self.cells:
-                    print('*', end=' ')
+                    print("*", end=" ")
                 else:
-                    print('.', end=' ')
+                    print(".", end=" ")
             print()
-        print('-' * 50)
+        print("-" * 50)
         time.sleep(1)
 
 
-GameOfLife({(0, 0), (1, 0), (1, 1), (2, 5), (2, 6), (3, 9), (4, 8), (10, 21), (11, 13),
-            (12, 13), (12, 14), (13, 14), (13, 15), (11, 12), (21, 11), (19, 21)}, 10)
+GameOfLife(
+    {
+        (0, 0),
+        (1, 0),
+        (1, 1),
+        (2, 5),
+        (2, 6),
+        (3, 9),
+        (4, 8),
+        (10, 21),
+        (11, 13),
+        (12, 13),
+        (12, 14),
+        (13, 14),
+        (13, 15),
+        (11, 12),
+        (21, 11),
+        (19, 21),
+    },
+    10,
+)

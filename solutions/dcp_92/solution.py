@@ -1,6 +1,7 @@
 from typing import Dict, List, Optional
 from collections import defaultdict, deque
 
+
 def solution(courses: Dict[str, List[str]]) -> Optional[List[str]]:
     indeg = defaultdict(int)
     for course in courses:

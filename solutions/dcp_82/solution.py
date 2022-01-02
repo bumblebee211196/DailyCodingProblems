@@ -1,4 +1,5 @@
-remainder = ''
+remainder = ""
+
 
 def readN(n):
     global remainder

@@ -1,5 +1,4 @@
 class Node:
-
     def __init__(self, val, parent):
         self.val = val
         self.parent = parent
@@ -40,7 +39,6 @@ class Node:
             parent._locked_descendants -= 1
             parent = parent.parent
         return True
-
 
 
 A = Node("A", None)

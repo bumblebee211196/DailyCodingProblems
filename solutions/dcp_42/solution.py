@@ -7,7 +7,7 @@ def solution(arr, k, res=None):
         return []
     for i, v in enumerate(arr):
         res.append(v)
-        if solution(arr[i+1:], k-v, res):
+        if solution(arr[i + 1 :], k - v, res):
             return res
         res.pop()
     return False

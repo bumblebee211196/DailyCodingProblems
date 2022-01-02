@@ -8,7 +8,7 @@ class TestSolution:
         "courses, output",
         [
             ({"CSC300": ["CSC100", "CSC200"], "CSC200": ["CSC100"], "CSC100": []}, ["CSC100", "CSC200", "CSC300"]),
-            ({"CSC300": ["CSC200"], "CSC200": ["CSC100"], "CSC100": ["CSC300"]}, None)
+            ({"CSC300": ["CSC200"], "CSC200": ["CSC100"], "CSC100": ["CSC300"]}, None),
         ],
     )
     def test_solution(self, courses, output):

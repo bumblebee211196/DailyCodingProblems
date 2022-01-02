@@ -1,5 +1,4 @@
 class Node:
-
     def __init__(self, val, left=None, right=None):
         self.val = val
         self.left = left
@@ -20,6 +19,7 @@ def solution(root):
         if is_unival:
             return 1 + left_count + right_count, True
         return left_count + right_count, False
+
     result, _ = _solution(root)
     return result
 

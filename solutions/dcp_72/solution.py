@@ -11,11 +11,14 @@ def construct_graph(vertices, edges):
 
 
 def dfs(node, s, graph, visited, max_paths):
-    if (visited[node] == VISITED): return False
-    if (visited[node] == VISITING): return True
+    if visited[node] == VISITED:
+        return False
+    if visited[node] == VISITING:
+        return True
     visited[node] = VISITING
     for neighbor in graph[node]:
-        if dfs(neighbor, s, graph, visited, max_paths): return True
+        if dfs(neighbor, s, graph, visited, max_paths):
+            return True
     for neighbor in graph[node]:
         for c in range(26):
             max_paths[node][c] = max(max_paths[node][c], max_paths[neighbor][c])

@@ -27,8 +27,8 @@ def solution(s):
     return res
 
 
-assert solution('racecar') == 'racecar'
-assert solution('google') == 'elgoogle'
-assert solution('egoogle') == 'elgoogle'
-assert solution('elgoog') == 'elgoogle'
-assert solution('race') == 'ecarace'
+assert solution("racecar") == "racecar"
+assert solution("google") == "elgoogle"
+assert solution("egoogle") == "elgoogle"
+assert solution("elgoog") == "elgoogle"
+assert solution("race") == "ecarace"

@@ -2,7 +2,7 @@ from typing import List, Union
 
 
 class LLNode:
-    def __init__(self, val: Union[str, int], next_: 'LLNode' = None) -> None:
+    def __init__(self, val: Union[str, int], next_: "LLNode" = None) -> None:
         self.val = val
         self.next = next_
 
@@ -28,7 +28,8 @@ def list_to_ll(vals: List[Union[str, int]]) -> LLNode:
 
 
 def solution(head):
-    if not head: return
+    if not head:
+        return
     new_head = None
     curr = head
     while curr:

@@ -11,28 +11,28 @@ def get_candidates(board, x, y):
     # Check URD
     r, c = x - 1, y + 1
     while r >= 0 and c < cols:
-        if (board[r][c] == 1):
+        if board[r][c] == 1:
             candidates.append((r, c))
         r -= 1
         c += 1
     # Check ULD
     r, c = x - 1, y - 1
     while r >= 0 and c >= 0:
-        if (board[r][c] == 1):
+        if board[r][c] == 1:
             candidates.append((r, c))
         r -= 1
         c -= 1
     # Check LLD
     r, c = x + 1, y - 1
     while r < rows and c >= 0:
-        if (board[r][c] == 1):
+        if board[r][c] == 1:
             candidates.append((r, c))
         r += 1
         c -= 1
     # Check LRD
     r, c = x + 1, y + 1
     while r < rows and c < cols:
-        if (board[r][c] == 1):
+        if board[r][c] == 1:
             candidates.append((r, c))
         r += 1
         c += 1

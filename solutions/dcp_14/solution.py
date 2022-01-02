@@ -20,7 +20,7 @@ def solution(iterations):
     return 4 * inside_circle / iterations
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     args = [100000] * 60
     with Pool(8) as pool:
         result = pool.map(solution, args)

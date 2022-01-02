@@ -5,8 +5,8 @@ from dataclasses import dataclass
 @dataclass
 class TreeNode:
     val: str
-    left: Optional['TreeNode'] = None
-    right: Optional['TreeNode'] = None
+    left: Optional["TreeNode"] = None
+    right: Optional["TreeNode"] = None
 
 
 def solution(root: TreeNode):

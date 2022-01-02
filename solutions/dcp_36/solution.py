@@ -5,13 +5,14 @@ class Node:
         self.right = right
 
     def __str__(self):
-        return '{}'.format(self.val)
+        return "{}".format(self.val)
 
     __repr__ = __str__
 
 
 def solution(node):
     res = []
+
     def _solution(node, counter):
         if not node or counter[0] >= 2:
             return
@@ -21,6 +22,7 @@ def solution(node):
             res.append(node.val)
             return
         _solution(node.left, counter)
+
     _solution(node, [0])
     if res:
         return res[0]

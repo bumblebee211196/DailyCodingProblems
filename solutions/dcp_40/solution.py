@@ -4,7 +4,7 @@ def solution(arr):
         for i in range(64):
             bit = v >> i & 1
             bin_arr[i] = (bin_arr[i] + bit) % 3
-    b = ''.join(list(map(str, bin_arr[::-1])))
+    b = "".join(list(map(str, bin_arr[::-1])))
     return int(b, 2)
 
 

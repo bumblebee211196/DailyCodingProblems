@@ -1,5 +1,4 @@
 def solution(arr):
-
     def _solution(arr):
         n = len(arr)
         if n <= 1:

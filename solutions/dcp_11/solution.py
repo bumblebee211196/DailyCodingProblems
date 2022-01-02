@@ -1,5 +1,5 @@
 class Trie:
-    def __init__(self, val='*'):
+    def __init__(self, val="*"):
         self.val = val
         self.children = []
         self.is_valid_word = False
@@ -30,14 +30,14 @@ class Trie:
                     break
             else:
                 return []
-        word_list = [f'{prefix}{curr_node.val}'] if curr_node.is_valid_word else []
+        word_list = [f"{prefix}{curr_node.val}"] if curr_node.is_valid_word else []
         child_list = [(curr_node, prefix)]
         while len(child_list) > 0:
             curr_node, prefix = child_list.pop(0)
             for child in curr_node.children:
                 if child.is_valid_word:
-                    word_list.append(f'{prefix}{child.val}')
-                child_list.append((child, f'{prefix}{child.val}'))
+                    word_list.append(f"{prefix}{child.val}")
+                child_list.append((child, f"{prefix}{child.val}"))
         return word_list
 
 
@@ -48,7 +48,7 @@ def solution(s, query_strings):
     return trie.get_matching_words(s)
 
 
-assert solution('de', ['dog', 'deer', 'deal']) == ['deer', 'deal']
-assert solution('ca', ['cat', 'car', 'cer']) == ['cat', 'car']
-assert solution('ae', ['cat', 'car', 'cer']) == []
-assert solution('ae', []) == []
+assert solution("de", ["dog", "deer", "deal"]) == ["deer", "deal"]
+assert solution("ca", ["cat", "car", "cer"]) == ["cat", "car"]
+assert solution("ae", ["cat", "car", "cer"]) == []
+assert solution("ae", []) == []

@@ -6,14 +6,12 @@ def _get_obj(id):
 
 
 class Node:
-
     def __init__(self, val):
         self.val = val
         self.both = 0
 
 
 class XORLinkedList:
-
     def __init__(self):
         self.head = self.tail = None
         self.__nodes = []
@@ -39,10 +37,10 @@ class XORLinkedList:
 
 
 xor_ll = XORLinkedList()
-xor_ll.add('1')
-xor_ll.add('2')
-xor_ll.add('3')
+xor_ll.add("1")
+xor_ll.add("2")
+xor_ll.add("3")
 
-assert xor_ll.get(0) == '1'
-assert xor_ll.get(1) == '2'
-assert xor_ll.get(2) == '3'
+assert xor_ll.get(0) == "1"
+assert xor_ll.get(1) == "2"
+assert xor_ll.get(2) == "3"

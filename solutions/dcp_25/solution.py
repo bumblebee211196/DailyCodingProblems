@@ -1,5 +1,6 @@
 def solution(s, pattern):
     memo = {}
+
     def helper(i, j):
         if (i, j) in memo:
             return memo[i, j]
@@ -7,10 +8,10 @@ def solution(s, pattern):
         if j == len(pattern):
             return i == len(s)
         # Check if the first element matches
-        first_match = i < len(s) and pattern[j] in (s[i], '.')
+        first_match = i < len(s) and pattern[j] in (s[i], ".")
         # If the next pattern is a wild card
         # Either the string must have the character once or not at all
-        if j + 1 < len(pattern) and pattern[j + 1] == '*':
+        if j + 1 < len(pattern) and pattern[j + 1] == "*":
             # First one is the character occured once
             # Second one is the character has no occurence at all
             result = first_match and helper(i + 1, j) or helper(i, j + 2)
@@ -19,6 +20,7 @@ def solution(s, pattern):
             result = first_match and helper(i + 1, j + 1)
         memo[i, j] = result
         return result
+
     return helper(0, 0)
 
 

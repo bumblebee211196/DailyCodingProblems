@@ -1,14 +1,12 @@
 class Node:
-
     def __init__(self, val, next=None):
         self.val = val
         self.next = next
 
 
-
 def solution(head, k):
     curr1, curr2 = head, head
-    for _ in range(k-1):
+    for _ in range(k - 1):
         curr2 = curr2.next
     while curr2.next:
         curr1 = curr1.next

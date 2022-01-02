@@ -5,7 +5,6 @@ from time import sleep, time
 
 
 class Scheduler:
-
     def __init__(self):
         self.functions = []
         heapq.heapify(self.functions)
@@ -27,10 +26,10 @@ class Scheduler:
 
 
 def some(name):
-    print(f'Hello {name}')
+    print(f"Hello {name}")
 
 
 scheduler = Scheduler()
-scheduler.schedule(some, 3000, 'John')
-scheduler.schedule(some, 3500, 'Keeper')
-scheduler.schedule(some, 5500, 'John Keeper')
+scheduler.schedule(some, 3000, "John")
+scheduler.schedule(some, 3500, "Keeper")
+scheduler.schedule(some, 5500, "John Keeper")

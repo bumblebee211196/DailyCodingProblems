@@ -23,7 +23,6 @@ def solution(arr):
     return result
 
 
-
 assert not solution(None)
 assert not solution([])
 assert solution([2, 5]) == [2, 3.5]
