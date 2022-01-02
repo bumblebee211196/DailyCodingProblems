@@ -7,12 +7,11 @@ from typing import Optional, Tuple
 @dataclass
 class TreeNode:
     val: int
-    left: Optional['TreeNode'] = None
-    right: Optional['TreeNode'] = None
+    left: Optional["TreeNode"] = None
+    right: Optional["TreeNode"] = None
 
 
 def solution(root: TreeNode) -> Optional[TreeNode]:
-
     def helper(node: Optional[TreeNode]) -> Tuple[bool, int, int, int]:
         nonlocal res, max_size
         if not node:
