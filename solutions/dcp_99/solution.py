@@ -12,6 +12,6 @@ def solution(nums: List[int]) -> int:
             l = seen[num - 1][0]
         if num + 1 in seen:
             r = seen[num + 1][1]
-        seen[num] = (l, r)
+        seen[num] = seen[l] = seen[r] = (l, r)
         res = max(res, r - l + 1)
     return res
