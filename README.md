@@ -117,3 +117,10 @@ A repository containing solutions to problems from [DailyCodingProblem](https://
   100. [Problem #100](solutions/dcp_100/)
 
 </details>
+
+<details>
+  <summary>Problems 101 - 150</summary>
+
+  101. [Problem #101](solutions/dcp_101/)
+
+</details>
