@@ -125,5 +125,6 @@ A repository containing solutions to problems from [DailyCodingProblem](https://
   102. [Problem #102](solutions/dcp_102/)
   103. [Problem #103](solutions/dcp_103/) **unsolved**
   104. [Problem #104](solutions/dcp_104/)
+  105. [Problem #105](solutions/dcp_105/)
 
 </details>
