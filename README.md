@@ -123,6 +123,6 @@ A repository containing solutions to problems from [DailyCodingProblem](https://
 
   101. [Problem #101](solutions/dcp_101/)
   102. [Problem #102](solutions/dcp_102/)
-  103. [Problem #103](solutions/dcp_103/)
+  103. [Problem #103](solutions/dcp_103/) **unsolved**
 
 </details>
