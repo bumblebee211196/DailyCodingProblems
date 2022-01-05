@@ -25,6 +25,3 @@ def solution(root: TreeNode) -> List[List[int]]:
     res = []
     helper(root, [])
     return res
-
-
-print(solution(TreeNode(1, TreeNode(2), TreeNode(3, TreeNode(4), TreeNode(5)))))
