@@ -1,5 +1,4 @@
 import pytest
-
 from solutions.dcp_113.solution import solution
 
 

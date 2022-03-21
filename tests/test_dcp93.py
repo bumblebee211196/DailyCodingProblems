@@ -1,6 +1,5 @@
 import pytest
-
-from solutions.dcp_93.solution import solution, TreeNode
+from solutions.dcp_93.solution import TreeNode, solution
 
 
 class TestSolution:

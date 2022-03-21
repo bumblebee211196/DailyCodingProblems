@@ -25,13 +25,9 @@ def helper(s, word_dict, memo):
 
 assert solution("theremin", ["the", "theremin"]) == ["theremin"]
 assert solution("thequickbrownfox", ["quick", "brown", "the", "fox"]) == ["the", "quick", "brown", "fox"]
-assert (
-    solution("bedbathandbeyond", ["bed", "bath", "bedbath", "and", "beyond"])
-    == [
-        "bed",
-        "bath",
-        "and",
-        "beyond",
-    ]
-    or solution("bedbathandbeyond", ["bed", "bath", "bedbath", "and", "beyond"]) == ["bedbath", "and", "beyond"]
-)
+assert solution("bedbathandbeyond", ["bed", "bath", "bedbath", "and", "beyond"]) == [
+    "bed",
+    "bath",
+    "and",
+    "beyond",
+] or solution("bedbathandbeyond", ["bed", "bath", "bedbath", "and", "beyond"]) == ["bedbath", "and", "beyond"]
