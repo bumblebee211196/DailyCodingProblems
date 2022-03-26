@@ -136,6 +136,3 @@ test.py
 
 # VSCode
 .vscode/
-
-# macos
-*/.DS_Store
